@@ -130,21 +130,21 @@ python -m streamlit run app.py
 
 
 ## 📈 Future Enhancements
--Hybrid Retrieval (BM25 + Vector Search)
--Adaptive Chunking
--Multi-Hop Reasoning
--Research Recommendation System
--AI-generated Literature Reviews
--Cloud Deployment
+- Hybrid Retrieval (BM25 + Vector Search)
+- Adaptive Chunking
+- Multi-Hop Reasoning
+- Research Recommendation System
+- AI-generated Literature Reviews
+- Cloud Deployment
 
 ---
 
 ## 🎯 Applications
--Academic Research Assistant
--Enterprise Knowledge Assistant
--Medical Literature Assistant
--Legal Document Analysis
--AI Research Copilot
+- Academic Research Assistant
+- Enterprise Knowledge Assistant
+- Medical Literature Assistant
+- Legal Document Analysis
+- AI Research Copilot
 
 ---
 
@@ -152,17 +152,17 @@ python -m streamlit run app.py
 
 This project aims to build a research-focused AI assistant similar to:
 
-Perplexity AI
-Semantic Scholar AI
-OpenAI Deep Research
+- Perplexity AI
+- Semantic Scholar AI
+- OpenAI Deep Research
 
 by combining:
 
-NLP
-Information Retrieval
-Conversational AI
-Vector Databases
-Retrieval-Augmented Generation (RAG)
+- NLP
+- Information Retrieval
+- Conversational AI
+- Vector Databases
+- Retrieval-Augmented Generation (RAG)
 
 into a unified intelligent research platform.
 
