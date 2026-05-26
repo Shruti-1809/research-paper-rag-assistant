@@ -50,6 +50,9 @@ LLM Response Generation
      ↓
 Conversational Response
 
+---
+
+
 ## 🔄 Workflow
 
 - Upload a research paper
@@ -117,6 +120,8 @@ python main.py
 -Frontend
 python -m streamlit run app.py
 
+---
+
 
 ## 📈 Future Enhancements
 -Hybrid Retrieval (BM25 + Vector Search)
@@ -126,12 +131,16 @@ python -m streamlit run app.py
 -AI-generated Literature Reviews
 -Cloud Deployment
 
+---
+
 ## 🎯 Applications
 -Academic Research Assistant
 -Enterprise Knowledge Assistant
 -Medical Literature Assistant
 -Legal Document Analysis
 -AI Research Copilot
+
+---
 
 ## 📌 Final Outcome
 
@@ -150,3 +159,5 @@ Vector Databases
 Retrieval-Augmented Generation (RAG)
 
 into a unified intelligent research platform.
+
+---
