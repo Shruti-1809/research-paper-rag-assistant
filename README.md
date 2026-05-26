@@ -1,9 +1,10 @@
-Conversational Research Paper Assistant using RAG
-📌 Overview
+##Conversational Research Paper Assistant using RAG
+
+**📌 Overview**
 
 The Conversational Research Paper Assistant is an AI-powered system that enables users to upload research papers and interact with them through natural language conversations.
 
-The project uses:
+*The project uses:*
 
 Transformer Embeddings
 Retrieval-Augmented Generation (RAG)
@@ -14,7 +15,8 @@ to retrieve relevant information from research papers and generate context-aware
 
 Unlike traditional keyword-based search systems, this assistant understands the semantic meaning of queries and supports multi-turn conversational interactions.
 
-🚀 Key Features
+🚀 **Key Features**
+
 📄 Upload and process research papers (PDFs)
 💬 Conversational question answering
 🧠 Semantic search using transformer embeddings
@@ -25,7 +27,8 @@ Unlike traditional keyword-based search systems, this assistant understands the 
 📊 Paper summarization
 📉 Reduced hallucination through retrieval grounding
 
-🏗️ System Architecture
+🏗️ **System Architecture**
+
 User Query
      ↓
 PDF Processing → Text Chunking
@@ -42,7 +45,8 @@ LLM Response Generation
      ↓
 Conversational Response
 
-🔄 Workflow
+🔄 **Workflow**
+
 Upload a research paper
 Extract and preprocess document text
 Split content into semantic chunks
@@ -52,7 +56,7 @@ Retrieve relevant chunks based on user query
 Generate grounded responses using RAG
 Maintain conversational context for follow-up queries
 
-🧠 What is RAG?
+🧠 *What is RAG?*
 
 Retrieval-Augmented Generation (RAG) combines:
 
@@ -69,7 +73,8 @@ Query
 → Relevant Context
 → LLM Response
 
-🧩 Tech Stack
+🧩 **Tech Stack**
+
 Frontend: Streamlit
 Backend: FastAPI
 PDF Processing: PyMuPDF, pdfplumber
@@ -79,31 +84,33 @@ Reranker: FlagEmbedding
 LLM: Groq (Llama)
 Database: SQLite + SQLAlchemy
 
-⚙️ Installation & Setup
-Clone Repository
+⚙️ **Installation & Setup**
+
+*Clone Repository*
 git clone https://github.com/shruti-1809/research-paper-rag-assistant.git
 
 cd research-paper-rag-assistant
-Create Virtual Environment
+
+*Create Virtual Environment*
 Windows
 python -m venv venv
-
 venv\Scripts\activate
+
 Mac/Linux
 python -m venv venv
-
 source venv/bin/activate
-Install Dependencies
+
+*Install Dependencies*
 pip install -r requirements.txt
 
-▶️ Run the Application
+▶️ *Run the Application*
 Backend
 python main.py
 Frontend
 python -m streamlit run app.py
 
 
-📈 Future Enhancements
+📈 **Future Enhancements**
 Hybrid Retrieval (BM25 + Vector Search)
 Adaptive Chunking
 Multi-Hop Reasoning
@@ -111,14 +118,14 @@ Research Recommendation System
 AI-generated Literature Reviews
 Cloud Deployment
 
-🎯 Applications
+🎯 **Applications**
 Academic Research Assistant
 Enterprise Knowledge Assistant
 Medical Literature Assistant
 Legal Document Analysis
 AI Research Copilot
 
-📌 Final Outcome
+📌 **Final Outcome**
 
 This project aims to build a research-focused AI assistant similar to:
 
