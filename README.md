@@ -50,7 +50,6 @@ LLM Response Generation
      ↓
 Conversational Response
 
-```md
 ```
 
 ## 🔄 Workflow
@@ -102,7 +101,10 @@ Query → Embedding → Retrieval → Relevant Context → LLM Response
 git clone https://github.com/shruti-1809/research-paper-rag-assistant.git
 cd research-paper-rag-assistant
 
-Create Virtual Environment
+```
+
+### Create Virtual Environment
+```bash
 -Windows
 python -m venv venv
 venv\Scripts\activate
@@ -110,16 +112,20 @@ venv\Scripts\activate
 -Mac/Linux
 python -m venv venv
 source venv/bin/activate
+```
 
 ### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### Run the Application
+```bash
 -Backend
 python main.py
 -Frontend
 python -m streamlit run app.py
-
+```
 ---
 
 
