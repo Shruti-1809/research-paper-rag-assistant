@@ -85,10 +85,10 @@ Query → Embedding → Retrieval → Relevant Context → LLM Response
 
 - **Frontend:** Streamlit  
 - **Backend:** FastAPI  
-- **PDF Processing:** PyMuPDF, pdfplumber  
-- **Embeddings:** Sentence Transformers (BGE / E5 / SPECTER2)  
+- **PDF Processing:** PyMuPDF  
+- **Embeddings:** BGE Transformer Embeddings  
 - **Vector DB:** FAISS  
-- **Reranker:** FlagEmbedding  
+- **Reranker:** BGE Cross-Encoder Reranker 
 - **LLM:** Groq (Llama)  
 - **Database:** SQLite + SQLAlchemy  
 
